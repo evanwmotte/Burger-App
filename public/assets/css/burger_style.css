@@ -12,9 +12,13 @@
 }
 
 .body {
-    background-color: lightgreen;
+    background-image: url(../img/background.jpg);
 }
 
 .listBurgers {
     font-size: 24px;
+}
+
+.heading {
+    padding-top: 25px;
 }

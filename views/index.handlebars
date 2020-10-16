@@ -1,4 +1,6 @@
+<div class="card text-white bg-dark mb-3 heading">
 <h1 class="text-center">Eat Da Burger App</h1>
+</div>
 
 <img src="/assets/img/burger.jpg" alt="Burger" width="400px" height="400px" class="rounded mx-auto d-block">
 
@@ -6,7 +8,9 @@
 
   <div class="row justify-content-center addBurger">
     <div class="col-4" align="center">
+      <div class="card text-white bg-dark mb-3">
       <h2 class="burgerText text-center">Custom Burgers!</h2>
+      </div>
         <ul class="list-group">
           {{#each burgers}}
           {{#unless devoured}}
@@ -16,18 +20,26 @@
         </ul>
     </div>
     <div class="col-4" align="center">
+      <div class="card text-white bg-dark mb-3">
       <h2 class="text-center">Add a Burger</h2>
+      </div>
       <form class="create-form text-center">
         <div class="form-group">
+          <div class="card text-white bg-dark mb-3">
           <label for="ca">Burger Name:</label>
           <br>
           <input type="text" id="ca" name="burger_name" class="form-control">
+          </div>
         </div>
+        <div class="card bg-dark">
         <button type="submit" class="btn-primary">Add Burger</button>
+        </div>
       </form>
     </div>
     <div class="col-4" align="center">
+      <div class="card text-white bg-dark mb-3">
       <h2 class="burgerText text-center">Burgers eaten!</h2>
+      </div>
         <ul class="list-group">
           {{#each burgers}}
           {{#if devoured}}
