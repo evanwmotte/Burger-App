@@ -1,0 +1,20 @@
+.burgerView {
+    padding-top: 30px;
+}
+
+.addBurger {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.burgerText {
+    font-size: 32px;
+}
+
+.body {
+    background-color: lightgreen;
+}
+
+.listBurgers {
+    font-size: 24px;
+}
