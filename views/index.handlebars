@@ -40,7 +40,7 @@
       <div class="card text-white bg-dark mb-3">
       <h2 class="burgerText text-center">Burgers eaten!</h2>
       </div>
-        <ul class="list-group">
+        <ul class="list-group eaten">
           {{#each burgers}}
           {{#if devoured}}
           {{> burgers/burger-block devoured=false}}

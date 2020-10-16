@@ -22,3 +22,7 @@
 .heading {
     padding-top: 25px;
 }
+
+.eaten {
+    text-decoration: line-through;
+}
